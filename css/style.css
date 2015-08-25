@@ -416,6 +416,10 @@ ul.follow_icon li {
 	font-size: 0.8125em;
 	line-height: 1.5em;
 }
+.about-desc b {
+font-weight: bold;
+
+}
 .about-topgrid1 {
 	width: 29%;
 	float: left;
