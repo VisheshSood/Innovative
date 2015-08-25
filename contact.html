@@ -1,6 +1,7 @@
 <!-- Innovative Gloves 
 	Designed by Vishesh Sood
 -->
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -48,88 +49,39 @@ Thailand<br>
   <div class="main">
 	 <div class="wrap">
 		<div class="section group">
-				<div class="col span_2_of_3">
+				<div class="col span_2_of_3" >
 				  
 				   <div class="contact-form">
 				  	<h3>Contact Us</h3>
-					    <!--<form method="post" action="contact-post.html">
-					    	<div>
-						    	<span><label>Name</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-Mail</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>Mobile</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>Subject</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<a href="#" class="btn btn-primary btn1">Submit</a>
-						  </div>
-					    </form>-->
-				  
-
-<form name="htmlform" method="post" action="html_form_send.php">
-<table width="450px">
-</tr>
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-
-<tr>
- <td valign="top">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-
-  <input type="submit" value="Submit"> 
- </td>
-</tr>
-</table>
-</form>
-</div>
+<div class="wrapper">  
+    <div id="contact_form">
+    <form name="form1" id="ff" method="post" action="insert.php">   
+        <label>
+        <span>Name*:</span>
+        <input type="text" placeholder="Please enter your name" name="name" id="name" required autofocus>
+        </label>
+         
+        <label>
+        <span>City*:</span>    
+        <input type="text" placeholder="Please enter your city" name="city" id="city" required>
+        </label>
+        
+        <label>
+        <span>Phone:</span>
+        <input type="tel" placeholder="Please enter your phone" name="phone" id="phone">
+        </label>
+         
+        <label>
+        <span>Email*:</span>
+        <input type="email" placeholder="youremail@gmail.com<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script>" name="email" id="email" required>
+          </label>
+        <input class="sendButton" type="submit" name="Submit" value="Send">      
+    </form>
+    </div>
+   </div>
+			
+					</div>
   				</div>
 				<div class="col span_1_of_3">
 					<div class="contact_info">
@@ -165,6 +117,8 @@ Thailand<br>
 			</div>	
 		</div>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
 
