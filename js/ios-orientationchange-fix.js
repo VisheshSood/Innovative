@@ -1,7 +1,3 @@
-/*! A fix for the iOS orientationchange zoom bug.
- Script by @scottjehl, rebound by @wilto.
- MIT / GPLv2 License.
-*/
 (function(w){
 	
 	// This fix addresses an iOS bug, so return early if the UA claims it's something else.
