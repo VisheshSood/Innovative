@@ -26,7 +26,9 @@ a{text-decoration:none;}
 .underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
-img{max-width:100%;}
+img{
+	max-width:100%;
+}
 /*end reset*/
 @font-face {
     font-family: 'bebas_neueregular';
@@ -211,6 +213,7 @@ hr {
 }
 .span_1_of_4 img{
 	display:block;
+
 }
 .span_1_of_4  h3 a{
 	color:#fff;
