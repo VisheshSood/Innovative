@@ -122,11 +122,41 @@ hr {
 }
 .top-box p{
 	color: #999;
-	font-size: 0.8125em;
+	font-size: 1.2125em;
 	line-height: 1.5em;
 	width: 65%;
 	margin: 0 auto;
 }
+
+
+.col_1_of_6{
+	display: block;
+	float: left;
+	margin: 1% 0 1% 3.6%;
+}
+.col_1_of_6:first-child { margin-left: 100; }
+.span_1_of_6 {
+  	width: 27.72%;
+}
+.span_1_of_6  h3 {
+	color: #888;
+	margin-bottom: .5em;
+	font-size: 1.2em;
+	line-height: 1.2;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-left: 100;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+.span_1_of_6   p {
+	color: #999;
+	margin-left: 100;
+	font-size: 0.8125em;
+	line-height: 1.5em;
+}
+
 /*  GRID OF FIVE   ============================================================================= */
 .col_1_of_5{
 	display: block;
@@ -135,7 +165,7 @@ hr {
 }
 .col_1_of_5:first-child { margin-left: 0; }
 .span_1_of_5 {
-  	width: 16.72%;
+  	width: 21.72%;
 }
 .span_1_of_5  h3{
 	color: #888;
@@ -603,13 +633,14 @@ p.txt2{
 	margin: 1% 0 1% 3.6%;
 }
 .col:first-child{
-	margin-left:0;
+	margin-left: 0;
 }	
 .span_2_of_3 {
 	width: 66.1%;
 }
 .span_1_of_3 {
 	width: 30.2%;
+margin-right: -100px;
 }
 .span_2_of_3  h3,
 .span_1_of_3  h3 {
