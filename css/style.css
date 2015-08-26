@@ -228,7 +228,7 @@ hr {
 .col_1_of_4{
 	display: block;
 	float: left;
-	margin: 1% 0 1% 2.6%;
+	margin: .5% 0 1% 1.6%;
 }
 .col_1_of_4:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 .span_1_of_4 {
