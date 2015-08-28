@@ -1161,6 +1161,17 @@ margin-right: -100px;
 	ul.follow_icon li {
 		margin-left: -3px;
 	}
+
+
+	
+
+}
 }
 
+.icon img{
 
+		width:228px; 
+		height:100px; 
+		margin: 0 10px; 
+		float:left;
+	}
