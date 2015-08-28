@@ -1166,12 +1166,22 @@ margin-right: -100px;
 	
 
 }
+.container {
+ height:50px;
+  position: relative;
+
 }
 
-.icon img{
+.icons {
+  position: absolute;
+  text-align: left;
+  top:0%;
+  left:0%;
+  transform:translate(-50%, -50%), scale(0.1, 0.2);
+}
 
-		width:228px; 
-		height:100px; 
-		margin: 0 10px; 
-		float:left;
-	}
+img[class^=icon] {
+  display: inline-block;
+  vertical-align: middle;
+  
+}
