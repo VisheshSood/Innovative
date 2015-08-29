@@ -1174,13 +1174,15 @@ font-size: 14px;
 }
 
 .tabs-menu {
-    height: 30px;
+    height: fill;
+    width: fill;
     float: left;
     clear: both;
 }
 
 .tabs-menu li {
     height: 30px;
+        width: fill;
     line-height: 30px;
     float: left;
     margin-right: 10px;
@@ -1194,6 +1196,7 @@ font-size: 14px;
     position: relative;
     background-color: #fff;
     border-bottom: 1px solid #fff;
+        width: fill;
     z-index: 5;
 }
 
