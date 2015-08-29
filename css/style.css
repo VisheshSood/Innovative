@@ -1214,6 +1214,7 @@ font-size: 14px;
     float: left;
     margin-bottom: 2px;
     width: 100%;
+    overflow: none;
 }
 
 .tab-content {
