@@ -1213,17 +1213,19 @@ font-size: 14px;
     background-color: #fff;
     float: left;
     margin-bottom: 2px;
-    width: auto;
+    width: 100%;
 }
 
 .tab-content {
-    width: fill;
-    padding: 20px;
+    width: 0%;
+    padding: 0px;
     display: none;
 }
 
 #tab-1 {
- display: block;   
+ display: block;  
+ position: relative; 
+ margin-bottom: 100px;
 }
 
 .container {
