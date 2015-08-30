@@ -26,6 +26,12 @@ img{
 @font-face {
     font-family: 'bebas_neueregular';
     src:url(../fonts/BebasNeue-webfont.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src:url(../fonts/BebasNeueLight.otf) format('opentype');
 }
 body{
 	font-family:Arial, Helvetica, sans-serif;
@@ -1224,28 +1230,91 @@ ul#tabs {
     ul#tabs li.active {
       background-color: rgba(0,190,255,1); }
 
-ul#tab {
+ul#tab 
+{
   list-style-type: none;
   margin: 0;
-  padding: 0; }
-  ul#tab li {
+  padding: 0; 
+}
+ul#tab li 
+{
     display: none;
     padding: 20px;
     padding-bottom: 50px;
-    border: solid 20px rgb(47,41,43); }
-    ul#tab li.active {
-      display: block;}
-      ul#tab li p {
-      margin-left: 0pt; 
-      style="color:rgb(0,0,0) !important}
-    
-    ul#tab li h2 {
-      font-weight: 100;
-      margin-bottom: 30px;
-      padding-bottom: 5px;
-      border-bottom: solid 5px rgb(204,204,204); }
+    border: solid 20px rgb(47,41,43); 
+}
+ul#tab li.active 
+{
+display: block;
+}
 
-	
+ul#tab li p 
+{
+margin-left: 0px;
+margin-right: 0px;
+text-align: justify;  
+color:rgb(0,0,0) !important;
+text-align: justify;
+padding-bottom: 10px;
+font-family: Helvetica;
+font-size: 12pt;
+}
+    
+ul#tab li h2 
+{
+font-weight: 100;
+margin-bottom: 30px;
+padding-bottom: 5px;
+border-bottom: solid 5px rgb(204,204,204); 
+}
+
+.colmask{
+   position: relative;
+   overflow: hidden;
+   margin: 0px auto;
+   width: 100%;
+   background-color: #b4d2f7
+}
+
+.colmid{
+   position: relative;
+   width: 100%;
+   right: 42%;
+   background-color: #b4d2f7
+}
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 24%;
+   background-color: #b4d2f7
+}
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 22%;
+   left: 101%;
+   background-color: #99ccff
+}
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 32%;
+   left: 45%;
+   background-color: #99ccff
+}
+.col3{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 40%;
+   left: 71%;
+   background-color: #ffffff
+
+}
+
+
 
 
 
