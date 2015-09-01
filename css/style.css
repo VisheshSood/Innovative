@@ -1282,3 +1282,15 @@ border-bottom: solid 5px rgb(204,204,204);
     -o-transform: scale(2);
     transform: scale(2);
 }
+
+.pHeader {
+	text-align:left !important; 
+	font-family:bebas_neueregular !important; 
+	font-weight:500 !important; 
+	font-size:15pt !important;
+}
+
+.paragraph {
+	font-family: Arial !important; 
+	font-size:10pt !important;
+}
