@@ -1295,3 +1295,12 @@ border-bottom: solid 5px rgb(204,204,204);
 	font-size:10pt !important;
 	width: 90% !important;
 }
+.paragraph2 {
+	font-family: 'PT Sans' !important; 
+	font-size:11pt !important;
+	width: 90% !important;
+}
+.paragraph3 {
+	font-family: 'PT Sans' !important; 
+	font-size:10pt !important;
+}
