@@ -1,183 +1,224 @@
 <!-- Innovative Gloves 
-	Designed by Vishesh Sood
+        Designed by Vishesh Sood
 -->
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Innovative Gloves Co., Ltd.</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="generator" content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
+        <title>
+            Innovative Gloves Co., Ltd.
+        </title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' /><!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+        <!--[if IE]><link rel="shortcut icon" href="path/to/favicon.ico"><![endif]-->
+        <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
+        <link rel="apple-touch-icon-precomposed" href="./images/favicon.png" /><!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
+        <link rel="icon" href="./images/favicon.png" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="wrap">
+                <div class="header-top">
+                    <div class="logo">
+                        <h1>
+                            <a href="index.html">Innovative Gloves</a>
+                        </h1>
+                    </div>
+                    <div id="text-6" class="visible-all-devices header-text">
+                        <div class="textwidget">
+                            830 Moo 4 Sanambin-Banklang Road,<br />
+                            Hatyai, Songkhla<br />
+                            90110,<br />
+                            Thailand<br />
+                            <h5 class="phone">
+                                +66 7450 2251
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div><!--==== Slider ==========-->
+        <div class="about-banner">
+            <div class="wrap">
+                <div class="cssmenu">
+                    <ul>
+                        <li>
+                            <a href="index.html"><span>Home</span></a>
+                        </li>
+                        <li>
+                            <a href="about.html"><span>About us</span></a>
+                        </li>
+                        <li>
+                            <a href="products.html"><span>Products</span></a>
+                        </li>
+                        <li>
+                            <a href="services.html"><span>Information</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="contact.html"><span>Contact</span></a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <div class="clear"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--====End Slider ==========-->
+        <div class="main">
+            <div class="wrap">
+                <div class="section group">
+                    <div class="col span_2_of_3">
+                        <div class="contact-form">
+                            <h3>
+                                Contact Us
+                            </h3><!--<form method="post" action="contact-post.html">
+                                                <div>
+                                                        <span><label>Name</label></span>
+                                                        <span><input name="userName" type="text" class="textbox"></span>
+                                                    </div>
+                                                    <div>
+                                                        <span><label>E-Mail</label></span>
+                                                        <span><input name="userEmail" type="text" class="textbox"></span>
+                                                    </div>
+                                                    <div>
+                                                        <span><label>Mobile</label></span>
+                                                        <span><input name="userPhone" type="text" class="textbox"></span>
+                                                    </div>
+                                                    <div>
+                                                        <span><label>Subject</label></span>
+                                                        <span><textarea name="userMsg"> </textarea></span>
+                                                    </div>
+                                                   <div>
+                                                                <a href="#" class="btn btn-primary btn1">Submit</a>
+                                                  </div>
+                                            </form>-->
+                            <form name="htmlform" method="post" action="html_form_send.php" id="htmlform">
+                                <table width="450px">
+                                    <tr>
+                                        <td valign="top">
+                                            <label for="first_name">First Name *</label>
+                                        </td>
+                                        <td valign="top">
+                                            <input type="text" name="first_name" maxlength="50" size="30" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <label for="last_name">Last Name *</label>
+                                        </td>
+                                        <td valign="top">
+                                            <input type="text" name="last_name" maxlength="50" size="30" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <label for="email">Email Address *</label>
+                                        </td>
+                                        <td valign="top">
+                                            <input type="text" name="email" maxlength="80" size="30" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <label for="telephone">Telephone Number</label>
+                                        </td>
+                                        <td valign="top">
+                                            <input type="text" name="telephone" maxlength="30" size="30" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <label for="comments">Comments *</label>
+                                        </td>
+                                        <td valign="top">
+                                            <textarea name="comments" maxlength="1000" cols="25" rows="6">
+</textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" style="text-align:center">
+                                            <input type="submit" class="styled-button-8" value="Send" /> 
 
-      <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
-<!--[if IE]><link rel="shortcut icon" href="path/to/favicon.ico"><![endif]-->
-
-<!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
-<link rel="apple-touch-icon-precomposed" href="./images/favicon.png">
-
-<!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
-<link rel="icon" href="./images/favicon.png">
-
-</head>
-<body>
-<div class="header">	
-  <div class="wrap"> 
-	<div class="header-top">
-		 <div class="logo">
-			 <h1><a href="index.html">Innovative Gloves</a></h1>
-		 </div>
-	    <div id="text-6" class="visible-all-devices header-text ">			
-	    	<div class="textwidget">830 Moo 4 Sanambin-Banklang Road, <br>
-	    		Hatyai, Songkhla <br>
-	    		90110,<br>
-Thailand<br>
-				
-				<h5 class="phone">+66 7450 2251</h5></div>
-		</div>
-		 <div class="clear"></div>  
-	   </div>
-   </div>	
-</div>
-      <!------ Slider ------------>
-   <div class="about-banner">
-      <div class="wrap">
-		   <div class="cssmenu">
-				<ul>
-				   <li><a href="index.html"><span>Home</span></a></li>
-				   <li><a href="about.html"><span>About us</span></a></li>
-				   <li><a href="products.html"><span>Products</span></a></li>
-				   <li><a href="services.html"><span>Information</span></a></li>
-				   <li class="active"><a href="contact.html"><span>Contact</span></a></li>
-				  <div class="clear"></div>
-			   </ul> 
-	       </div>
-	  </div>
-   </div>
-		<!------End Slider ------------>
-  <div class="main">
-	 <div class="wrap">
-		<div class="section group">
-				<div class="col span_2_of_3">
-				  
-				   <div class="contact-form">
-				  	<h3>Contact Us</h3>
-					    <!--<form method="post" action="contact-post.html">
-					    	<div>
-						    	<span><label>Name</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-Mail</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>Mobile</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>Subject</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<a href="#" class="btn btn-primary btn1">Submit</a>
-						  </div>
-					    </form>-->
-				  
-
-<form name="htmlform" method="post" action="html_form_send.php">
-<table width="450px">
-</tr>
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-
-<tr>
- <td valign="top">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-
-  <input type="submit" value="Submit"> 
- </td>
-</tr>
-</table>
-</form>
-</div>
-  				</div>
-				<div class="col span_1_of_3">
-					<div class="contact_info">
-    	 				<h3>Find Us Here</h3>
-					    	  <div class="map">
-							   	 <iframe width="380" height="290" src="http://regiohelden.de/google-maps/map_en.php?width=380&amp;height=290&amp;hl=en&amp;q=830%20Moo%204%20Sanambin-Banklang%20Road%2C+(Innovative%20Gloves)&amp;ie=UTF8&amp;t=k&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-							  </div>
-      				</div>
-      			   <div class="company_address">
-				     	<h3>Company Information :</h3>
-						    	<p>830 Moo 4 Sanambin-Banklang Road, </p>
-						   		<p>Hatyai, Songkhla , 90110</p>
-						   		<p>Thailand</p>
-				   		<p>Phone: (+66) 7450 2251</p>
-				   		<p>Fax: (+66) 7450 2252</p>
-				 	 	<p>Email: <span>rsood1963[at]gmail.com</span></p>
-				   		
-				   </div>
-				 </div>
-				   <div class="clear"></div>
-			  </div>
-	 </div>
-	</div>
-	<div class="footer">
-		<div class="wrap">
-			<div class="footer-text">
-				<h2>Get in touch</h2>
-               <p>Contact Bar Coming Soon!</p>
-               <div class="copy">
-                  <p> © 2015 All rights Reserved | Design by <a href="http://www.visheshsd.com">Vishesh Sood</a></p>
-               </div>
-				</div>
-			</div>	
-		</div>
-	</div>
-</body>
+												<style type="text/css">
+												.styled-button-8 {
+													background: #25A6E1;
+													background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+													background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+													background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+													background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+													background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+													background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+													filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+													padding:8px 13px;
+													color:#fff;
+													font-family:'Helvetica Neue',sans-serif;
+													font-size:17px;
+													border-radius:4px;
+													-moz-border-radius:4px;
+													-webkit-border-radius:4px;
+													border:1px solid #1A87B9
+												}                
+												</style>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col span_1_of_3">
+                        <div class="contact_info">
+                            <h3>
+                                Find Us Here
+                            </h3>
+                            <div class="map">
+                                <iframe width="380" height="290" src="http://regiohelden.de/google-maps/map_en.php?width=380&amp;height=290&amp;hl=en&amp;q=830%20Moo%204%20Sanambin-Banklang%20Road%2C+(Innovative%20Gloves)&amp;ie=UTF8&amp;t=k&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>
+                        </div>
+                        <div class="company_address">
+                            <h3>
+                                Company Information :
+                            </h3>
+                            <p>
+                                830 Moo 4 Sanambin-Banklang Road,
+                            </p>
+                            <p>
+                                Hatyai, Songkhla , 90110
+                            </p><!-- <p>Thailand</p> -->
+                            <p>
+                                Phone: (+66) 7450 2251
+                            </p>
+                            <p>
+                                Fax: (+66) 7450 2252
+                            </p>
+                            <p>
+                                Email: <span>rsood1963[at]gmail.com</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrap">
+                <div class="footer-text">
+                    <h2>
+                        Get in touch
+                    </h2>
+                    <p>
+                        Contact Bar Coming Soon!
+                    </p>
+                    <div class="copy">
+                        <p>
+                            &#169; 2015 All rights Reserved | Design by <a href="http://www.visheshsd.com">Vishesh Sood</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
-
-    	
-    	
-            
