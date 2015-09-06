@@ -272,7 +272,7 @@ Packaging:
 <script>
 $(document).ready(function() {
 // Initiate magnification powers
-$('#zoom2s').magnify({
+$('#zoom2').magnify({
 onload: function() {
 console.log('Magnification powers activated!');
 }
@@ -345,6 +345,21 @@ Specifications:
 
 </div>
 <div class="col-sm-4">
+	<p style="text-align:right; font-style:italic"> Hover Your Mouse To Zoom </i></p>
+<img id="zoom3" src="./images/silverline2.jpg" alt="" width=fill height="570" align = "left" data-magnify-src="./images/silverline2.jpg">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/jquery.magnify.js"></script>
+<script>
+$(document).ready(function() {
+// Initiate magnification powers
+$('#zoom3').magnify({
+onload: function() {
+console.log('Magnification powers activated!');
+}
+});
+});
+
+</script>
 	<p class="pHeader">
 Packaging: 
 </p>
