@@ -2,14 +2,14 @@
 if(isset($_POST['email'])) {
 	
 	// CHANGE THE TWO LINES BELOW
-	$email_to = "omg.itsvishesh@gmail.com";
+	$email_to = "omg.itsvishesh@gmail.com, vsood@uw.edu";
 	
 	$email_subject = "Website Comment!";
 	
 	
 	function died($error) {
 		// your error code can go here
-		echo "We're sorry, but there's errors found with the form you submitted.<br /><br />";
+		echo "We're sorry, but there are errors found with the form you submitted.<br /><br />";
 		echo $error."<br /><br />";
 		echo "Please go back and fix these errors.<br /><br />";
 		die();
@@ -71,7 +71,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 <!-- place your own success html below -->
 
-Thank you for contacting us. We will be in touch with you very soon.
+Thank you for contacting Innovative Gloves. We will be in touch with you very soon.
 
 <?php
 }
