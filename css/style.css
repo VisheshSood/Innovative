@@ -1321,7 +1321,7 @@ border-bottom: solid 5px rgb(204,204,204);
 .align-left {
     float: left;
 }
-.verticaltext {
+.verticaltextIndex {
 	/* to hide the weird A's for text padding issue
 		for differently sized strings in vertical text*/
 	-webkit-touch-callout: none;
