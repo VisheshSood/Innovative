@@ -1304,14 +1304,16 @@ border-bottom: solid 5px rgb(204,204,204);
 	font-family: 'PT Sans' !important; 
 	font-size:10pt !important;
 }
-#banner {
+
+.bannerVertical {
     position: absolute;
-    left: 5%;
+    left: 0;
     right: 0;
     padding-top: 10%;
+    padding-left: 5%;
 }
 
-#banner p {
+.bannerVertical p {
     margin: 0;
     padding: 0;
     line-height: 50px;
@@ -1320,16 +1322,24 @@ border-bottom: solid 5px rgb(204,204,204);
     float: left;
 }
 .verticaltext {
+	/* to hide the weird A's for text padding issue
+		for differently sized strings in vertical text*/
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /*to make the text vertical */
     transform: rotate(-90deg);
     transform-origin: right, top;
     -ms-transform: rotate(-90deg);
     -ms-transform-origin:right, top;
     -webkit-transform: rotate(-90deg);
     -webkit-transform-origin:right, top;
-    position: absolute;
-    text-align: left; 
+    position: absolute; 
     color: #000000;
-    float: left;
     font-family: 'bebas_neueregular';
-    font-size: 3em;
+    font-size: 30pt;
 }
