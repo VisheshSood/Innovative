@@ -9,7 +9,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-
+<link rel="stylesheet" href="css/magnify.css">
+      <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script src="js/jquery.magnify.js"></script>   
       <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
 <!--[if IE]><link rel="shortcut icon" href="path/to/favicon.ico"><![endif]-->
 
@@ -19,24 +21,24 @@
 <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
 <link rel="icon" href="./images/favicon.png">
 
-</head>
-<body>
-<div class="header">	
-  <div class="wrap"> 
-	<div class="header-top">
-		 <div class="logo">                  
-		 	<h1><a href="index.html">Innovative Gloves Co., Ltd.</a></h1>
-
-		 </div>
-	    <div id="text-6" class="visible-all-devices header-text ">			
-	    	<div class="textwidget">830 Moo 4 Sanambin-Banklang Road, <br>
-	    		Hatyai, Songkhla <br>
-	    		90110,<br>
-Thailand<br>
-				
-				<h5 class="phone">+66 7450 2251</h5></div>
-		</div>
-		 <div class="clear"></div> 
+ </head>
+   <body>
+      <div class="header">
+         <div class="wrap" style="width:100% !important">
+            <div class="header-top">
+               <div class="logo">
+                  <h1><a href="index.html">Innovative Gloves Co., Ltd.</a></h1>
+               </div>
+               <div id="text-6" class="visible-all-devices header-text" style="right: 0 !important;">
+                  <div class="textwidget" style="float:right">
+                     830 Moo 4 Sanambin-Banklang Road, <br>
+                     Hatyai, Songkhla <br>
+                     90110,<br>
+                     Thailand<br>
+                     <h5 class="phone">+66 7450 2251</h5>
+                  </div>
+               </div>
+               <div class="clear"></div> 
 	   </div>
    </div>	
 </div>
@@ -68,7 +70,19 @@ Thailand<br>
 							<div class="about-img">
 								<img src="images/pic8.jpg" alt="">
 
-								<img src="images/award.jpg" alt="">
+                         <img id="zoom10" src="./images/award.jpg" alt="" align = "center" data-magnify-src="./images/award.jpg">
+								<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+                        <script src="js/jquery.magnify.js"></script>
+                        <script>
+                        $(document).ready(function() {
+                        // Initiate magnification powers
+                        $('#zoom10').magnify({
+                        onload: function() {
+                        console.log('Magnification powers activated! Award');
+                        }
+                        });
+                        });
+                        </script>
 							</div>
 							<div class="about-desc">
 								<p class="paragraph3">Innovative Gloves was founded in 2001 by Mr Rajeev Sood. Having served the industry since 1986 and built numerous plants ground-up, Mr Sood decided it was time to design one of the best production facilities Thailand had seen. Bringing together the most advanced state-of-the-art technology, a professional team endowed with 17+ years of experience in dipping technology and latex, this dream did not take long to realise. Innovative Gloves was conceived on a land of 20 acres and commissioned in September of 2001. </p>
